@@ -55,7 +55,7 @@
 1 0 10 #"text-box%\0"
 1 0 32 #"(lib \"text-snipclass.ss\" \"xml\")\0"
 1 0 1 6 #"wxloc\0"
-          0 0 99 0 1 #"\0"
+          0 0 100 0 1 #"\0"
 0 75 1 #"\0"
 0 12 90 -1 90 -1 3 -1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 255 255 255 1 -1 0 9
 #"Standard\0"
@@ -349,7 +349,10 @@
 0 0 -1 -1 2 1 #"\0"
 0 -1 1 #"\0"
 1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 200 0 0 0 0
-0 -1 -1           0 3669 0 4 3 85
+0 -1 -1 0 1 #"\0"
+0 75 6 #"Menlo\0"
+0.0 15 90 -1 90 -1 3 -1 0 1 0 1 0 0 0.0 0.0 0.0 0.0 0.0 0.0 0 0 0 255
+255 255 1 -1           0 3669 0 4 3 85
 (
  #";; The first three lines of this file were inserted by DrRacket. The"
  #"y record metadata"
@@ -447,7 +450,7 @@
 0 0 24 29 1 #"\n"
 0 0 17 3 1 #";"
 0 0 24 29 1 #"\n"
-0 0 17 3 25 #"; - Destroy out of screen"
+0 0 17 3 35 #"; - Destroy out of screen   ## DONE"
 0 0 24 29 1 #"\n"
 0 0 17 3 1 #";"
 0 0 24 29 1 #"\n"
@@ -712,7 +715,7 @@
 0 0 24 3 1 #" "
 0 0 14 3 10 #"BACKGROUND"
 0 0 24 3 1 #" "
-0 2          19 4 1 #"\0"
+0 2          19 66 1 #"\0"
 2 -1.0 -1.0 0.0 0.0 0           4 500
 (
  #"\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\2\0\0\0\1 \b"
@@ -828,7 +831,7 @@
 0 0 24 3 1 #" "
 0 0 14 3 5 #"POLLO"
 0 0 24 3 1 #" "
-0 2          13 4 1 #"\0"
+0 2          13 66 1 #"\0"
 2 -1.0 -1.0 0.0 0.0 0           1 209
 (
  #"\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0 \0\0\0 \b"
@@ -851,7 +854,7 @@
 0 0 24 3 1 #" "
 0 0 14 3 6 #"PLAYER"
 0 0 24 3 1 #" "
-0 2          13 4 1 #"\0"
+0 2          13 66 1 #"\0"
 2 -1.0 -1.0 0.0 0.0 0           1 403
 (
  #"\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0(\0\0\0 \b"
@@ -885,7 +888,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 1 #"2"
 0 0 24 3 2 #"  "
-0 2          13 4 1 #"\0"
+0 2          13 66 1 #"\0"
 2 -1.0 -1.0 0.0 0.0 0           1 104
 (
  #"\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\4\0\0\0\4\b"
@@ -1016,7 +1019,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -1040,7 +1043,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 224
+0 12           4 66 224
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -1061,7 +1064,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 224
+0 12           4 66 224
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -1082,7 +1085,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 1 #"0"
 0 0 24 3 1 #" "
-0 12           4 4 226
+0 12           4 66 226
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -1099,7 +1102,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 3 #"300"
 0 0 24 3 1 #" "
-0 12           4 4 226
+0 12           4 66 226
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -1127,7 +1130,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -1148,7 +1151,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 224
+0 12           4 66 224
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -1169,7 +1172,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 224
+0 12           4 66 224
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -1188,7 +1191,7 @@
 0 0 24 3 2 #"  "
 0 0 21 3 1 #"0"
 0 0 24 3 1 #" "
-0 12           4 4 226
+0 12           4 66 226
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -1203,7 +1206,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 3 #"300"
 0 0 24 3 1 #" "
-0 12           4 4 226
+0 12           4 66 226
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -1482,7 +1485,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -1503,7 +1506,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 224
+0 12           4 66 224
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -1524,7 +1527,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 224
+0 12           4 66 224
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -1543,7 +1546,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 1 #"0"
 0 0 24 3 1 #" "
-0 12           4 4 226
+0 12           4 66 226
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -1560,7 +1563,7 @@
 0 0 24 3 1 #")"
 0 0 24 29 1 #"\n"
 0 0 24 3 14 #"              "
-0 12           4 4 2283
+0 12           4 66 2283
 (
  #"(#(struct:scale 1/5 1/5 #(struct:crop (#(struct:point 0 0) #(struct:"
  #"point 512 0) #(struct:point 512 288) #(struct:point 0 288)) #(struct"
@@ -1639,7 +1642,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 14497
+0 12           4 66 14497
 (
  #"(#(struct:overlay #(struct:crop (#(struct:point 0 0) #(struct:point "
  #"32 0) #(struct:point 32 32) #(struct:point 0 32)) #(struct:translate"
@@ -1958,7 +1961,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 2          13 4 1 #"\0"
+0 2          13 66 1 #"\0"
 2 -1.0 -1.0 0.0 0.0 0           1 209
 (
  #"\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0 \0\0\0 \b"
@@ -1986,7 +1989,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 224
+0 12           4 66 224
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 20 0 0 0) #(struct:pulled-point 0"
@@ -2007,7 +2010,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 2          13 4 1 #"\0"
+0 2          13 66 1 #"\0"
 2 -1.0 -1.0 0.0 0.0 0           1 209
 (
  #"\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0 \0\0\0 \b"
@@ -2033,7 +2036,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 1 #"0"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -2052,7 +2055,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 1 #"0"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -2071,7 +2074,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 1 #"0"
 0 0 24 3 1 #" "
-0 12           4 4 281
+0 12           4 66 281
 (
  #"(#(struct:scale 2 2 #(struct:tran"
  #"slate 2 2 #(struct:bitmap #(#\"\\0\\377\\377\\377\\377:4\\a\\377:4\\"
@@ -2097,7 +2100,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 14497
+0 12           4 66 14497
 (
  #"(#(struct:overlay #(struct:crop (#(struct:point 0 0) #(struct:point "
  #"32 0) #(struct:point 32 32) #(struct:point 0 32)) #(struct:translate"
@@ -2416,7 +2419,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 2          13 4 1 #"\0"
+0 2          13 66 1 #"\0"
 2 -1.0 -1.0 0.0 0.0 0           1 209
 (
  #"\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0 \0\0\0 \b"
@@ -2444,7 +2447,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 224
+0 12           4 66 224
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 20 0 0 0) #(struct:pulled-point 0"
@@ -2465,7 +2468,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 2          13 4 1 #"\0"
+0 2          13 66 1 #"\0"
 2 -1.0 -1.0 0.0 0.0 0           1 209
 (
  #"\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0 \0\0\0 \b"
@@ -2491,7 +2494,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 1 #"0"
 0 0 24 3 1 #" "
-0 12           4 4 281
+0 12           4 66 281
 (
  #"(#(struct:scale 2 2 #(struct:tran"
  #"slate 2 2 #(struct:bitmap #(#\"\\0\\377\\377\\377\\377:4\\a\\377:4\\"
@@ -2522,7 +2525,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -2543,7 +2546,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 224
+0 12           4 66 224
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -2564,7 +2567,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 224
+0 12           4 66 224
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -2583,7 +2586,7 @@
 0 0 24 3 2 #"  "
 0 0 21 3 1 #"0"
 0 0 24 3 1 #" "
-0 12           4 4 226
+0 12           4 66 226
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -2598,7 +2601,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 3 #"300"
 0 0 24 3 1 #" "
-0 12           4 4 226
+0 12           4 66 226
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -2622,7 +2625,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -2643,7 +2646,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 224
+0 12           4 66 224
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -2664,7 +2667,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 224
+0 12           4 66 224
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -2683,7 +2686,7 @@
 0 0 24 3 2 #"  "
 0 0 21 3 1 #"0"
 0 0 24 3 1 #" "
-0 12           4 4 226
+0 12           4 66 226
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -2698,7 +2701,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 3 #"300"
 0 0 24 3 1 #" "
-0 12           4 4 226
+0 12           4 66 226
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -2906,7 +2909,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 1 #"0"
 0 0 24 3 1 #" "
-0 12           4 4 281
+0 12           4 66 281
 (
  #"(#(struct:scale 2 2 #(struct:tran"
  #"slate 2 2 #(struct:bitmap #(#\"\\0\\377\\377\\377\\377:4\\a\\377:4\\"
@@ -2935,7 +2938,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 3 #"100"
 0 0 24 3 1 #" "
-0 12           4 4 281
+0 12           4 66 281
 (
  #"(#(struct:scale 2 2 #(struct:tran"
  #"slate 2 2 #(struct:bitmap #(#\"\\0\\377\\377\\377\\377:4\\a\\377:4\\"
@@ -3547,7 +3550,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -3558,7 +3561,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 1 #"0"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -3581,7 +3584,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -3606,7 +3609,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -3617,7 +3620,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 1 #"0"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -3640,7 +3643,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -3728,7 +3731,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -3755,7 +3758,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -4066,7 +4069,7 @@
 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
-0 7        1099 4           0 0           0 182 0 17 3 30
+0 7        1099 61           0 0           0 182 0 17 3 30
 #"; list-to-drop : world -> list"
 0 0 24 29 1 #"\n"
 0 0 17 3 9 #"; creates"
@@ -4725,7 +4728,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
@@ -4746,7 +4749,7 @@
 0 0 24 3 1 #" "
 0 0 21 3 2 #"10"
 0 0 24 3 1 #" "
-0 12           4 4 225
+0 12           4 66 225
 (
  #"(#(struct:translate 0 0 #(struct:polygon (#(struct:pulled-point 0 0 "
  #"0 0 0 0) #(struct:pulled-point 0 0 10 0 0 0) #(struct:pulled-point 0"
