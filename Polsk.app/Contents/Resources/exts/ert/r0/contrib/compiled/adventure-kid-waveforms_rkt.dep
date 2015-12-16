@@ -1,0 +1,1 @@
+("6.2.1" ("babfb721096da52b7aa63058644af2c47a6eb3d7" . "97538ae8976b5aec2847d1fbc0f2e8a6bf0af772") (collects #"rsound" #"rsound.rkt") (collects #"racket" #"runtime-path.rkt") (collects #"racket" #"base.rkt") (collects #"racket" #"runtime-config.rkt"))
